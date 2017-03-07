@@ -74,7 +74,7 @@ class Memorize(object):
         self.B = B
 
     def StartM(self, num):
-        Er = open("Erratas/Errata" + str(self.num), 'w')
+        Er = open("Erratas/Errata" + str(self.num) + ".txt", 'w')
         if num == 0:
             for i in range(len(self.A)):
                 print self.A[i]
